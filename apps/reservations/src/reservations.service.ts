@@ -18,6 +18,7 @@ export class ReservationsService {
   }
 
   findAll() {
+    console.log('RUNNN!!!');
     return this.reservationRepository.findAll();
   }
 
